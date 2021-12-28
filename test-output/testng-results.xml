@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6506" started-at="2021-12-28T17:58:19Z" finished-at="2021-12-28T17:58:25Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6506" started-at="2021-12-28T17:58:19Z" finished-at="2021-12-28T17:58:25Z">
+      <class name="Tests.SignupTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="ReportSetup" is-config="true" duration-ms="96" started-at="2021-12-28T17:58:19Z" finished-at="2021-12-28T17:58:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="setup" is-config="true" duration-ms="935" started-at="2021-12-28T17:58:19Z" finished-at="2021-12-28T17:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="NegativeSignup" duration-ms="828" started-at="2021-12-28T17:58:20Z" finished-at="2021-12-28T17:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abgail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharmaa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Remote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeSignup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="teardown" is-config="true" duration-ms="69" started-at="2021-12-28T17:58:20Z" finished-at="2021-12-28T17:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="setup" is-config="true" duration-ms="799" started-at="2021-12-28T17:58:20Z" finished-at="2021-12-28T17:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signupTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="signupTest" duration-ms="797" started-at="2021-12-28T17:58:21Z" finished-at="2021-12-28T17:58:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[absds@gmgsail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sharmaa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Remote]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="teardown" is-config="true" duration-ms="65" started-at="2021-12-28T17:58:22Z" finished-at="2021-12-28T17:58:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ReportTearDown()[pri:0, instance:Tests.SignupTest@12c8a2c0]" name="ReportTearDown" is-config="true" duration-ms="323" started-at="2021-12-28T17:58:25Z" finished-at="2021-12-28T17:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTearDown -->
+      </class> <!-- Tests.SignupTest -->
+      <class name="Tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@7e0e6aa2]" name="setup" is-config="true" duration-ms="832" started-at="2021-12-28T17:58:22Z" finished-at="2021-12-28T17:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeLogin(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@7e0e6aa2]" name="NegativeLogin" duration-ms="368" started-at="2021-12-28T17:58:23Z" finished-at="2021-12-28T17:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[absds@gmgsail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hh@32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.LoginTest@7e0e6aa2]" name="teardown" is-config="true" duration-ms="66" started-at="2021-12-28T17:58:23Z" finished-at="2021-12-28T17:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginTest@7e0e6aa2]" name="setup" is-config="true" duration-ms="803" started-at="2021-12-28T17:58:23Z" finished-at="2021-12-28T17:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="positiveLogin(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@7e0e6aa2]" name="positiveLogin" duration-ms="436" started-at="2021-12-28T17:58:24Z" finished-at="2021-12-28T17:58:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[absds@gmgsail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Abc@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Tests.LoginTest@7e0e6aa2]" name="teardown" is-config="true" duration-ms="67" started-at="2021-12-28T17:58:25Z" finished-at="2021-12-28T17:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
