@@ -13,9 +13,9 @@ public class SignupTest extends Baseclass {
 	
 	@Parameters({"Email","CorrectPassword","FirstName","LastName","Age","Address"})
 	@Test
-	public void signupTest(String EmailVal,String PasswordVal,String FirstNameVal,String LastNameVal,String AgeVal,String AddressVal) {
+	public void PositivesignupTest(String EmailVal,String PasswordVal,String FirstNameVal,String LastNameVal,String AgeVal,String AddressVal) {
 		
-		test = report.startTest("Sign Up Test");
+		test = report.startTest("Positive Sign Up Test");
 		SignupPage Signup = new SignupPage();
 		Signup.signup(EmailVal, PasswordVal, FirstNameVal, LastNameVal, AgeVal, AddressVal);
 		Signup.ValidateSignup();
@@ -28,8 +28,7 @@ public class SignupTest extends Baseclass {
 	@Test
 	public void NegativeSignup(String EmailVal,String PasswordVal,String FirstNameVal,String LastNameVal,String AgeVal,String AddressVal) {
 		
-		System.out.println(EmailVal);
-		test = report.startTest("Sign Up Test");
+		test = report.startTest("Negative Sign Up Test");
 		SignupPage Signup = new SignupPage();
 		Signup.signup(EmailVal, PasswordVal, FirstNameVal, LastNameVal, AgeVal, AddressVal);
 		Signup.ErrorCheckS();

@@ -70,6 +70,7 @@ public class LoginPage {
 		SoftAssert soft_l = new SoftAssert();
 		soft_l.assertEquals(ActualURL_l, ExpectedURL_l);
 		soft_l.assertAll();
+		test.log(LogStatus.PASS, "Validating Login", "Successfully Validated Login");
 		
 	}
 
@@ -81,6 +82,8 @@ public class LoginPage {
 		SoftAssert soft = new SoftAssert();
 		soft.assertEquals(ActualURL, ExpectedURL);
 		soft.assertAll();
+		test.log(LogStatus.PASS, "Checking for Negative Login", "Successfully Checked Negative Login");
+		
 	}
 	
 }

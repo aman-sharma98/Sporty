@@ -77,13 +77,13 @@ public class SignupPage {
 		test.log(LogStatus.PASS, "Enter First name "+FirstNameVal, "Successfully Entered First name");
 		
 		LastName.sendKeys(LastNameVal);
-		test.log(LogStatus.PASS, "Click on Login Button "+LastNameVal, "Successfully Entered Last name");
+		test.log(LogStatus.PASS, "Entered Last name "+LastNameVal, "Successfully Entered Last name");
 		
 		Age.sendKeys(AgeVal);
-		test.log(LogStatus.PASS, "Click on Login Button "+AgeVal, "Successfully Entered Age");
+		test.log(LogStatus.PASS, "Enter Age "+AgeVal, "Successfully Entered Age");
 		
 		Address.sendKeys(AddressVal);
-		test.log(LogStatus.PASS, "Click on Login Button "+AddressVal, "Successfully Entered Address");
+		test.log(LogStatus.PASS, "Enter Address "+AddressVal, "Successfully Entered Address");
 		
 		SignupButton.click();
 		test.log(LogStatus.PASS, "Click on Login Button", "Clicked on Login Button");
@@ -98,6 +98,7 @@ public class SignupPage {
 		SoftAssert soft_S = new SoftAssert();
 		soft_S.assertEquals(ActualURL_S, ExpectedURL_S);
 		soft_S.assertAll();
+		test.log(LogStatus.PASS, "Validating Signup", "Successfully Validated Signup");
 		
 	}
 	
@@ -109,6 +110,7 @@ public class SignupPage {
 		SoftAssert soft = new SoftAssert();
 		soft.assertNotEquals(ActualURL, ExpectedURL);
 		soft.assertAll();
+		test.log(LogStatus.PASS, "Checking Negative Signup", "Successfully Checked Negative Signup");
 	}
 
 }

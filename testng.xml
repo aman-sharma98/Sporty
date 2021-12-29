@@ -3,18 +3,21 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   
-  	<parameter name="Email" value="absds@gmgsail.com"></parameter>
+  	<parameter name="Email" value="amanS@ciso.com"></parameter>
   	<parameter name="WrongEmail" value="abgail.com"></parameter>
 	<parameter name="CorrectPassword" value="Abc@12345"></parameter>
 	<parameter name="Password" value="hh@32"></parameter>
-	<parameter name="FirstName" value="Amana"></parameter>
-	<parameter name="LastName" value="Sharmaa"></parameter>
+	<parameter name="FirstName" value="Aman"></parameter>
+	<parameter name="LastName" value="Sharma"></parameter>
     <parameter name="Age" value="23"></parameter>
 	<parameter name="Address" value="Remote"></parameter>
+	<parameter name="ExpectedProduct" value="ABC Product"></parameter>
+	<parameter name="ExpectedProductinOrder" value="ABC Product, 1 units @134.00 = 134.00"></parameter>
      
   	<classes>
   	  <class name="Tests.SignupTest"/>
       <class name="Tests.LoginTest"/>
+      <class name="Tests.CompleteOrderandValidateTest"/>
     </classes>
     
   </test> <!-- Test -->

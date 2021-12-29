@@ -19,7 +19,7 @@ public class LoginTest extends Baseclass{
 	@Test
 	public void NegativeLogin(String EmailVal, String PasswordVal) {
 		
-		test = report.startTest("Negetive Login Test");
+		test = report.startTest("Negative Login Test");
 		LoginPage login = new LoginPage();
 		login.Login(EmailVal, PasswordVal);
 		login.ErrorCheck();
@@ -32,7 +32,7 @@ public class LoginTest extends Baseclass{
 	@Test
 	public void positiveLogin(String EmailVal, String PasswordVal) {
 		
-		test = report.startTest("Possitive Login Test");
+		test = report.startTest("Positive Login Test");
 		LoginPage login = new LoginPage();
 		login.Login(EmailVal, PasswordVal);
 		login.ValidateLogin();
